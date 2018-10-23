@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.rapidkl.RegisterCard">
+
+    <EditText
+        android:id="@+id/etCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:maxLength="16"
+        android:hint="Card Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etExpiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Expiry(mm/yy)"
+        android:inputType="date"
+        android:maxLength="4"
+        android:layout_below="@+id/etCardNumber"
+        android:layout_alignStart="@+id/etCardNumber" />
+
+    <EditText
+        android:id="@+id/etCVV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="4"
+        android:hint="CVV"
+        android:inputType="number"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/etExpiry" />
+
+    <Button
+        android:id="@+id/btnSaveCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etCVV"
+        android:layout_below="@+id/etCVV"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="SAVE" />
+</RelativeLayout>

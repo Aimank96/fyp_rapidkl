@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ticket"
+            android:icon="@mipmap/ic_qrcode"
+            android:title="Ticket QR Code" />
+
+        <item
+            android:id="@+id/nav_buycreadit"
+            android:icon="@mipmap/ic_topup"
+            android:title="Topup Credit"/>
+
+        <item
+            android:id="@+id/nav_balance"
+            android:icon="@mipmap/ic_credit_card_black_24dp"
+            android:title="View Balance Credit" />
+
+        <item
+            android:id="@+id/nav_customerservie"
+            android:icon="@mipmap/ic_custserv"
+            android:title="Customer Service" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@mipmap/ic_news"
+            android:title="News Update" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_logout"
+            android:title="Log Out" />
+    </group>
+
+
+ >
+
+</menu>

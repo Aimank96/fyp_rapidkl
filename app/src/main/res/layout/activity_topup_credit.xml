@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.rapidkl.TopupCredit">
+
+    <Spinner
+        android:id="@+id/spnReload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btnPayNow" />
+
+    <Spinner
+        android:id="@+id/spnPayMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvPayMethod"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/tvPayMethod"
+        android:layout_alignStart="@+id/btnPayNow" />
+
+    <Button
+        android:id="@+id/btnPayNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Now"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/tvNewCard" />
+
+    <TextView
+        android:id="@+id/tvReload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reload"
+        android:layout_alignTop="@+id/spnReload"
+        android:layout_alignStart="@+id/tvPayMethod" />
+
+    <TextView
+        android:id="@+id/tvPayMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:text="Payment Method"
+        android:layout_below="@+id/spnReload"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/tvNewCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPayNow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="New Card" />
+</RelativeLayout>

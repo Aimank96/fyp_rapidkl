@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.rapidkl.CustomerService">
+
+    <TextView
+        android:id="@+id/tvServ1"
+        android:layout_width="210dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp"
+        android:layout_toStartOf="@+id/imageView3"
+        android:text="On the go and need some assistance? Call our Customer Helpline:"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/tvServ2"
+        android:layout_width="210dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvServ1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="03-4567 8912"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/tvServ3"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvServ2"
+        android:layout_below="@+id/tvServ2"
+        android:layout_marginTop="94dp"
+        android:text="Monday to Friday: 7am to 8.30pm"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="145dp"
+        android:layout_height="52dp"
+        android:layout_alignBottom="@+id/tvServ2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvServ1"
+        android:layout_marginEnd="14dp"
+        app:srcCompat="@drawable/customerservice" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvServ3"
+        android:layout_alignTop="@+id/tvServ3"
+        android:layout_marginTop="25dp"
+        android:text="Saturday n Sunday: 8.30am - 5.30pm"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="11dp"
+        android:text="(Closed on public holidays)"
+        android:textSize="14sp" /><![CDATA[
+
+    android:layout_alignStart="@+id/tvServ3" />
+
+]]>
+</RelativeLayout>
